@@ -1,0 +1,297 @@
+.w800px {
+width: 800px;
+background-color:  rgb(222, 231, 133);
+}
+.w300px{
+
+background-color:  rgb(222, 231, 133);
+padding-left: 10px;
+margin-left: 10px;
+display: inline;
+}
+
+.w300pxReal{
+    width: 300px; 
+    background-color:  rgb(222, 231, 133);
+    padding-left: 10px;
+    margin-left: 10px;
+    display: inline;
+    }
+
+.w500px{
+    width: 130px; 
+    background-color: rgb(222, 231, 133);
+    padding-left: 10px;
+    margin-left: 10px;
+    display: inline;
+    }
+
+
+
+
+.inline{
+    
+    background-color:  rgb(196, 165, 74);
+    padding-left: 10px;
+    margin-left: 10px;
+    display: inline;
+
+
+}
+#width100PX{
+    width: 100px;
+}
+#width200PX{
+    width: 200px;
+}
+#width300PX{
+    width: 300px;
+}
+#width400PX{
+    width: 400px;
+}
+#width500PX{
+    width: 500px;
+}
+#width600PX{
+    width: 600px;
+}
+#width900PX{
+    width: 900px;
+}
+#width1000PX{
+    width: 1000px;
+}
+
+
+.inlineInput{
+    width: 40px; 
+    background-color:  rgb(88, 88, 88);
+    padding-left: 10px;
+    margin-left: 40px;
+    display: inline;
+    margin-right:15px ;
+    margin-bottom: 5px;
+
+}
+
+.submit{
+    background-color:  rgb(196, 165, 74); /* Green */
+    border: 1px  solid;
+    color: black;
+    padding: 7px 130px;
+    padding-left: 5px;
+    padding-right: 280px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+margin-bottom: 5px;
+margin-left: 2px;
+margin-top: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.submit:hover{
+    background-color: rgb(112,112,112);/* Green */
+    color: white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.submit2{
+    background-color:  rgb(196, 165, 74); /* Green */
+    border: 1px  solid;
+    color: black;
+    padding: 7px 13px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+margin-bottom: 5px;
+margin-left: 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.submit2:hover{
+    background-color: rgb(112,112,112);/* Green */
+    color: white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.brd {
+    border: 4px double black; /* Параметры границы */
+    background: rgb(196, 165, 74); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    width: 980px;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.brd2 {
+    border: 4px double black; /* Параметры границы */
+    background: rgb(88, 88, 88); /* Цвет фона */
+    padding: 7px; /* Поля вокруг текста */
+    width: 980px;
+    padding-left: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 100%;
+}
+
+.inputID{
+    width: 100px; background-color: rgb(240, 240, 240);
+
+    }
+
+
+
+
+
+
+
+html{
+    margin-left: 40px;
+    margin-top: 25px;
+    background-color: rgb(88, 88, 88);
+    }
+
+
+
+    body {
+    
+     
+        font-family: Verdana,sans-serif;
+        font-size: 115%;
+        
+    }
+
+    input{
+        width: 70px;
+        background-color:   rgb(196, 165, 74);
+        font-family: Verdana,sans-serif;
+        font-size: 100%;
+        /* outline: rgb(88, 88, 88); */
+        }
+
+
+        .buttonss{
+            background-color:    #333; /* Green */
+            border: none;
+            color: rgb(199, 195, 195);
+            padding: 12px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 80%;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 2px 0 rgba(0,0,0,0.19);
+        }
+
+        .buttonss:hover {
+            background-color:  #000; /* Green */
+            color: white;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+
+
+        #marginLeft50px{
+           margin-left: 50px;
+        }
+        .marginLeft50px{
+            margin-left: 55px;
+         }
+        #shopping-cart-512{
+         
+            height: 25px;
+            width: 25px;
+            background-color: rgb(88, 88, 88);
+        }
+        #identificationRender{
+            margin-bottom: 4px; 
+        }
+        #identificationRenderDiv{
+                width: 150px;
+            float: left;
+        }
+        
+         div{
+            margin: 6px;
+        }
+
+        #showMeDescription{
+            margin-left:55px ;
+        }
+
+        .navigation  {
+            background-color:   #333; /* Green */
+            border: none;
+            color: rgb(199, 195, 195);
+            padding: 12px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;           
+            border-radius: 8px;
+            margin-bottom: 5px;
+            margin-left: 2px;
+            transition-duration: 0.4s;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            position: fixed;
+            font-size: 70%;
+            left: 5px;
+            width: 60px;
+        }     
+
+        .navigation:hover {
+            background-color:  #000!important; 
+            color: white;
+            font:Verdana, sans-serif;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        #nav1{
+            top:25px
+        }
+        #nav2{
+            top:70px;
+            font-size: 65%;
+            padding-left: 3px;
+            width: 70px;
+        }
+        #nav3{
+            top:115px
+        }
+
+ 
+
+        a:hover {
+            background-color:  #333!important; 
+            color: white;
+            font:Verdana, sans-serif;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            font-size: 100%;
+
+
+        }

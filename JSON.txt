@@ -1,0 +1,46 @@
+function showMeDescription (){
+    fetch ('/showMeDescription', {
+        method: 'POST',
+        body: JSON.stringify({id:"1888"}),
+        headers: {
+            'Accept' : 'application/json',
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(function(response) {
+        return response.json()
+    })
+    .then(function(data) {
+        cl (data)
+    })
+}
+
+showMeDescription()
+cl(JSON.stringify({id:"1888"}))
+//////////////////////////////////////////////////////
+
+app.post('/showMeDescription', function (req, res) {
+    // cl(req.body.id)
+    let showMeDescription = new Promise (function(resolve, reject){
+        con.query("SELECT * FROM `lili`.`goods` WHERE id ="+req.body.id, 
+        function(error, result){
+            if (error) {console.log(error)};
+            cl(result)
+            resolve(result);
+            res.json(result)
+        })
+    }) 
+})
+
+//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
+app.use (express.json())
+//////////////////////////////////////////////////////
+let z = {
+    year:33,
+    weight:77,
+    heighth:193
+}
+
+cl(z)
+cl(JSON.stringify(z))

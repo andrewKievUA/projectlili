@@ -1,0 +1,57 @@
+
+   cntl+f для поиска внутри странички
+           case "https://vk.com/albums-132899993":
+                  temp3= "1";break;
+
+              case "":
+                  temp3= "";break;
+
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+
+              case "":
+                  temp3= "";break;
+
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;
+
+              case "":
+                  temp3= "";break;

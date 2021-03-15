@@ -1,0 +1,51 @@
+include  header.pug 
+include  navigation.pug
+<title>Поставщики</title> 
+body 
+
+        form(action="/saveSupplier" method="get" class="brd" autocomplete="off" )               
+            DIV( class="inline") ФИО поставщика
+                input(type="text" name="firstName" value="" class="w500px" autocomplete="off" id="width300PX") 
+                <br>
+
+            DIV( class="inline") Уникальный URL идентификатор 
+                input(type="text" name="unigURL" value="" class="w500px" autocomplete="off") 
+                <br>
+            DIV( class="inline")  Адресс для отправки сообщения поставщику сообщения
+                input(type="text" name="contact_message" value="" class="w500px" autocomplete="off" id="priceSupply" accesskey="t")
+                <br> 
+
+            DIV( class="inline") Телефон данного поставщика
+                input(type="text" name="phone" value="" class="w500px" autocomplete="off"  id="priceSell" )
+
+            p Ссылка на размерную сетку 1
+                input(type="text" name="url1" value="" class="w800px" autocomplete="off" accesskey="s" id="url1")
+            p Ссылка на размерную сетку 2
+                input(type="text" name="url2" value="" class="w800px" autocomplete="off" accesskey="z" id="url2" onchange="ckeckValueOfUrl()")
+            p комментарий
+                input(type="text" name="comment" value="" class="w800px" autocomplete="off")
+            p                
+                input(type="submit", value="Сохранить в базу данных" class="submit" )
+
+
+        
+        div(class="brd")
+            <input type="number" id="showMeSupplierValueHtml" value="" name="showMeSupplierValueHtml" autocomplete="off">
+                <button class="submit2" id="showMeSupplierButtonHtml" onclick="showMeSupplierFunction()">Найти в базе</button>
+        div(id="showMeSupplierInjection")
+
+
+
+
+
+
+
+
+
+        form(action="/deleteSupplier", method="get" class="brd") 
+            DIV( class="inline") введите данный ID  о поставщике которого вы хотите удалить 
+                input(type="text" name="id" value="" class="w500px" autocomplete="off")
+             
+                input(type="submit" class="submit500px" value="Удалить данного поставщика из базы" )
+
+        script(src="js/supplier.js")

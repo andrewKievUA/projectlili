@@ -1,0 +1,42 @@
+
+include  header.pug 
+<title>База Данных</title> 
+
+
+<script src="js/sweetalert2.all.min.js"></script>
+<link rel="css/stylesheet" href="sweetalert2.min.css">
+//- <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+//- <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+
+include  navigation.pug       
+        div(class="")
+            div(id="injection")
+
+            form#submitForSavingInGoods(class="brd" )               
+                div
+                    span !{temp3} 
+                    span( class="inline") курьер 
+                        input(type="number" id="priceTransfer" value="0" class="w300px" step="10" ) 
+                    span( class="inline")  цена закупки
+                        input(type="text" id="priceSupply" value="" class="w500px" autocomplete="off"  accesskey="1" placeholder="alt+1")
+                    span( class="inline") цена продажи
+                        input(type="text" id="priceSell" value="" class="w500px" autocomplete="off"    accesskey="2" placeholder="alt+2")
+                DIV  ссылка1
+                    input(type="text" id="url1" value="" class="w800px" autocomplete="off"  accesskey="z" placeholder="alt+z")
+                DIV ссылка2
+                    input(type="text" id="url2" value="" class="w800px" autocomplete="off"  accesskey="x" placeholder="alt+x")
+                DIV комментарий
+                    input(type="text" id="comment" value="" class="w800px" autocomplete="off")
+                DIV                
+                    button(type="submit", class="submit"  ) Cохранить в базу данных
+            
+        
+
+
+        div(id="injectionButton")
+        DIV( id="showMeDescriptionInjection")        
+        div(id="injection2")
+        div(id="showMelastDownloaded")
+
+        div(id="identificationRender")
+        script(src="js/savedb.js")
